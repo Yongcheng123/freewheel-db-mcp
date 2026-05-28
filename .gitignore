@@ -1,0 +1,3 @@
+/data/*.db
+/scraped/
+/.DS_Store

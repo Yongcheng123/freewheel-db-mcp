@@ -1,0 +1,15 @@
+{
+  "name": "freewheel-db-mcp",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Streamable HTTP MCP server for locally built freewheel.db.",
+  "scripts": {
+    "build-db": "node scripts/build-db.js",
+    "start": "node src/main.js",
+    "dev": "node --watch src/main.js"
+  },
+  "engines": {
+    "node": ">=24"
+  }
+}
